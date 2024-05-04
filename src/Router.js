@@ -1,7 +1,6 @@
 import { lazy } from "react";
 import { Navigate, useRoutes } from "react-router-dom";
 import Loadable from "./Loadable";
-import AuthGuard from "./AuthGuard";
 
 const Login = Loadable(lazy(() => import("./LoginPage")));
 const SignUp = Loadable(lazy(() => import("./SignUpPage")));
