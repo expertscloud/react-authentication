@@ -3,16 +3,20 @@ import { Container, Typography } from "@mui/material";
 
 function DashboardPage() {
   return (
-    <div style={{ backgroundColor: "#f0f0f0", minHeight: "100vh" }}>
+    <div
+      style={{
+        backgroundColor: "#f0f0f0",
+        minHeight: "100vh",
+        padding: "20px",
+      }}>
       <Container
-        style={{
+        sx={{
           textAlign: "center",
           backgroundColor: "#ffffff",
           color: "#333",
           padding: "20px",
           borderRadius: "5px",
           boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
-          marginTop: "20px",
         }}
         maxWidth="xl">
         <Typography variant="h4" gutterBottom>
