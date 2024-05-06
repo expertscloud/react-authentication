@@ -1,3 +1,13 @@
+Follow us on social media:
+
+- [Facebook](https://www.facebook.com/Expertscloud)
+- [LinkedIn](https://www.linkedin.com/company/expertscloud-pvt-limited)
+- [Instagram](https://www.instagram.com/lifeatexpertscloud/)
+
+ExpertsCloud provides DevOps services for companies of all sizes. We ensure end-to-end software delivery automation, as well as security of infrastructure in the company.
+
+---
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/067dac2c-b483-4bcd-8e3e-fb779be23e70/deploy-status)](https://app.netlify.com/sites/react-authentication-ec/deploys)
 
 # Getting Started with Create React App
