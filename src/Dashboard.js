@@ -17,6 +17,7 @@ function DashboardPage() {
           padding: "20px",
           borderRadius: "5px",
           boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
+          minHeight: "50vh",
         }}
         maxWidth="xl">
         <Typography variant="h4" gutterBottom>

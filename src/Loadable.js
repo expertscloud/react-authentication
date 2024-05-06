@@ -12,9 +12,9 @@ const StyledLoading = styled("div")({
   },
   "& .circleProgress": {
     position: "absolute",
+    margin: "10px",
     left: -7,
     right: 0,
-    top: "calc(50% - 25px)",
   },
 });
 const Loading = () => {
