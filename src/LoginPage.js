@@ -19,10 +19,6 @@ function LoginPage() {
     },
     validationSchema,
     onSubmit: (values, { setSubmitting }) => {
-      // Perform any additional validation if needed
-      // For simplicity, assume validation is passed
-      console.log("Username:", values.username);
-      console.log("Password:", values.password);
       navigate("/dashboard");
       setSubmitting(false);
     },
@@ -64,6 +60,7 @@ function LoginPage() {
           onBlur={formik.handleBlur}
           error={formik.touched.password && Boolean(formik.errors.password)}
           helperText={formik.touched.password && formik.errors.password}
+          sx={{ marginBottom: "15px" }}
         />
         <Button
           type="submit"
@@ -71,7 +68,7 @@ function LoginPage() {
           color="primary"
           fullWidth
           disabled={formik.isSubmitting}
-          style={{ marginBottom: "20px", width: "80%" }}
+          sx={{ marginBottom: "20px", width: "80%" }}
           startIcon={<LockOutlinedIcon />}>
           {formik.isSubmitting ? "Logging In..." : "Login"}
         </Button>
